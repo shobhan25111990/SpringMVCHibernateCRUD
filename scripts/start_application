@@ -6,7 +6,7 @@ CATALINA_HOME='/usr/share/apache-tomcat-8.0.47'
 SERVER_HTTP_PORT='80'
 
 TEMP_STAGING_DIR='/your_directory_upload_file_war/codedeploy/'
-WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/your_project_name.war"
+WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/SpringMVCHibernateCRUD.war"
 HTTP_PORT_CONFIG_XSL_LOCATION="$TEMP_STAGING_DIR/configure_http_port.xsl"
 
 CONTEXT_PATH='your_project_name'
