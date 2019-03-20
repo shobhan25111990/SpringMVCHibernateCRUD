@@ -1,10 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /target/SpringMVCHibernateCRUD.war
-    destination: /your_directory_upload_file_war/codedeploy/
+  - source: target/SpringMVCHibernateCRUD.war
+    destination: /opt/codedeploy/
   - source: /scripts/configure_http_port.xsl
-    destination: /your_directory_upload_file_war/codedeploy/
+    destination: /opt/codedeploy/
 hooks:
   ApplicationStop:
     - location: scripts/stop_application
