@@ -8,4 +8,6 @@ phases:
 
 artifacts:
   files:
-    - target/SpringMVCHibernateCRUD.war
+ 	- appspec.yml
+ 	- target/SpringMVCHibernateCRUD.war
+ 	- scripts/*
