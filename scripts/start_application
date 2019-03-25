@@ -23,5 +23,3 @@ cp $WAR_STAGED_LOCATION $CATALINA_HOME/webapps/$CONTEXT_PATH.war
 
 
 service tomcat start
-#systemctl tomcat start
-
