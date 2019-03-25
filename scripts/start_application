@@ -9,7 +9,7 @@ TEMP_STAGING_DIR='/opt/codedeploy/'
 WAR_STAGED_LOCATION="$TEMP_STAGING_DIR/SpringMVCHibernateCRUD.war"
 HTTP_PORT_CONFIG_XSL_LOCATION="$TEMP_STAGING_DIR/configure_http_port.xsl"
 
-CONTEXT_PATH='your_project_name'
+CONTEXT_PATH='SpringMVCHibernateCRUD'
 # Remove unpacked application artifacts
 if [[ -f $CATALINA_HOME/webapps/$CONTEXT_PATH.war ]]; then
     rm $CATALINA_HOME/webapps/$CONTEXT_PATH.war
