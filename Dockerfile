@@ -2,5 +2,5 @@
 From tomcat:8-jre8 
 
 # Maintainer 
-MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+MAINTAINER "saikrishna2653@gmail.com" 
+COPY ./SpringMVCHibernateCRUD.war /opt/tomcat/webapps
